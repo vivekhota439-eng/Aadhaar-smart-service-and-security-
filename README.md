@@ -4,9 +4,11 @@ Module 1: Smart Aadhaar Center Management
 - Late users must rebook
 - SMS / WhatsApp reminder before visit
 
-Module 2: Aadhaar Two-Step Verification (A-2SV)
- Under Development
-- User approval required for every Aadhaar usage
+ Module 2: Aadhaar Two-Step Verification (A-2SV)
+- Secondary user confirmation for Aadhaar usage
 - Approval via SMS / App / IVR
-- Transaction blocked by default
--
+- Transaction allowed only after user consent
+- Blocks request if user rejects or does not respond
+- Code implementation added separately
+
+
