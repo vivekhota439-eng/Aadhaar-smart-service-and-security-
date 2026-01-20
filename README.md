@@ -1,2 +1,12 @@
-# Aadhaar-smart-service-and-security-
-An integrated Aadhaar solution introducing smart time-slot based center management and user-consented two-step verification (A-2SV) to reduce overcrowding, enhance security, and improve citizen trust.
+Module 1: Smart Aadhaar Center Management
+- Time-based token system (10–15 minutes)
+- Entry allowed only in assigned slot
+- Late users must rebook
+- SMS / WhatsApp reminder before visit
+
+Module 2: Aadhaar Two-Step Verification (A-2SV)
+ Under Development
+- User approval required for every Aadhaar usage
+- Approval via SMS / App / IVR
+- Transaction blocked by default
+-
