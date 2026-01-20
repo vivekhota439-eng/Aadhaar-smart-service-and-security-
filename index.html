@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aadhaar Token</title>
+</head>
+<body>
+    <h2>Aadhaar Appointment Form</h2>
+
+    <form method="post" action="/book">
+        Name: <input type="text" name="name" required><br><br>
+        Mobile: <input type="text" name="mobile" required><br><br>
+        Service:
+        <select name="service">
+            <option>Address Update</option>
+            <option>DATE OF BIRTH UPDATE(DOB)</option>
+            <option>Mobile Number update</option>
+        </select><br><br>
+        Date: <input type="date" name="date" required><br><br>
+        <button type="submit">Generate Token</button>
+    </form>
+</body>
+</html>
